@@ -5,7 +5,7 @@ How Airflow Works?
 + How the components work together
 + Single node and multiple node are different
 
-![SingleNodeArchitecture](./9dc8025591594b66b036342dc6e03a39)
+![SingleNodeArchitecture](./9dc8025591594b66b036342dc6e03a39.jpg)
 
 ## Notes about Single Node
 + Queue component is not part of the system, might have to use RabbitMQ or Redis.
@@ -15,7 +15,7 @@ How Airflow Works?
 + Exe, Sch, and Web communicate through the database
 
 
-![MultiNodeArchitecture](./62f4d6828f844a1ebf80625c4f71594e)
+![MultiNodeArchitecture](./62f4d6828f844a1ebf80625c4f71594e.jpg)
 ## Notes about Multi Nodes
 + Difference is master node has scheduler and server
 + MetadataDB runs on its own node
