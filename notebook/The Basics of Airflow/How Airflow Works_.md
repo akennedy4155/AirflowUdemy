@@ -5,7 +5,7 @@ How Airflow Works?
 + How the components work together
 + Single node and multiple node are different
 
-![Single Node Architecture](../_resources/18b388211add4440a1f61570b4435631.jp)
+![Single Node Architecture](../_resources/18b388211add4440a1f61570b4435631.jpg)
 
 ## Notes about Single Node
 + Queue component is not part of the system, might have to use RabbitMQ or Redis.
